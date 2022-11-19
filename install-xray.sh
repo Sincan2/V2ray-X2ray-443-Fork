@@ -112,7 +112,7 @@ cat > /etc/xray/config.json << END
        "streamSettings":{
          "network": "ws",
             "wsSettings": {
-                "path": "/xrayws"
+                "path": "/sincan1ws"
           }
         }
      },
@@ -131,7 +131,7 @@ cat > /etc/xray/config.json << END
        "streamSettings":{
          "network": "ws",
             "wsSettings": {
-                "path": "/xrayvws"
+                "path": "/sincan2ws"
           }
         }
      },
@@ -151,7 +151,7 @@ cat > /etc/xray/config.json << END
        "streamSettings":{
            "network": "ws",
            "wsSettings": {
-               "path": "/xraytrojanws"
+               "path": "/sincan3ws"
             }
          }
      },
@@ -172,7 +172,7 @@ cat > /etc/xray/config.json << END
        "streamSettings":{
           "network": "ws",
              "wsSettings": {
-               "path": "/xrayssws"
+               "path": "/sincan4ws"
            }
         }
      },	
