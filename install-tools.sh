@@ -83,6 +83,7 @@ apt -y install wget curl
 apt -y install net-tools
 
 # Install Requirements Tools
+apt install ntpdate -y
 apt install ruby -y
 apt install python -y
 apt install make -y
